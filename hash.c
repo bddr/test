@@ -142,3 +142,7 @@ unsigned int APHash(char* str, unsigned int len)
         }
         return hash;
 }
+
+//usage:
+//hash = APHash((char *)0x10000, size);
+
